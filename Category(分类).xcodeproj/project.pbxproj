@@ -14,6 +14,12 @@
 		32A75E071AA7603300D6B8EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A75E061AA7603300D6B8EE /* Images.xcassets */; };
 		32A75E0A1AA7603300D6B8EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A75E081AA7603300D6B8EE /* LaunchScreen.xib */; };
 		32A75E161AA7603300D6B8EE /* Category____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E151AA7603300D6B8EE /* Category____Tests.m */; };
+		32A75E2D1AA7604200D6B8EE /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E221AA7604200D6B8EE /* RSACryptor.m */; };
+		32A75E2E1AA7604200D6B8EE /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E241AA7604200D6B8EE /* NSArray+Log.m */; };
+		32A75E2F1AA7604200D6B8EE /* NSMutableURLRequest+Multipart.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E261AA7604200D6B8EE /* NSMutableURLRequest+Multipart.m */; };
+		32A75E301AA7604200D6B8EE /* NSObject+array.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E281AA7604200D6B8EE /* NSObject+array.m */; };
+		32A75E311AA7604200D6B8EE /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E2A1AA7604200D6B8EE /* NSString+Extension.m */; };
+		32A75E321AA7604200D6B8EE /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A75E2C1AA7604200D6B8EE /* UIImage+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		32A75E0F1AA7603300D6B8EE /* Category(分类)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Category(分类)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A75E141AA7603300D6B8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A75E151AA7603300D6B8EE /* Category____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Category____Tests.m"; sourceTree = "<group>"; };
+		32A75E211AA7604200D6B8EE /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = "<group>"; };
+		32A75E221AA7604200D6B8EE /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = "<group>"; };
+		32A75E231AA7604200D6B8EE /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		32A75E241AA7604200D6B8EE /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		32A75E251AA7604200D6B8EE /* NSMutableURLRequest+Multipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Multipart.h"; sourceTree = "<group>"; };
+		32A75E261AA7604200D6B8EE /* NSMutableURLRequest+Multipart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Multipart.m"; sourceTree = "<group>"; };
+		32A75E271AA7604200D6B8EE /* NSObject+array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+array.h"; sourceTree = "<group>"; };
+		32A75E281AA7604200D6B8EE /* NSObject+array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+array.m"; sourceTree = "<group>"; };
+		32A75E291AA7604200D6B8EE /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		32A75E2A1AA7604200D6B8EE /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		32A75E2B1AA7604200D6B8EE /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		32A75E2C1AA7604200D6B8EE /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 		32A75DF81AA7603300D6B8EE /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				32A75E1F1AA7604200D6B8EE /* 分类 */,
 				32A75DFD1AA7603300D6B8EE /* AppDelegate.h */,
 				32A75DFE1AA7603300D6B8EE /* AppDelegate.m */,
 				32A75E001AA7603300D6B8EE /* ViewController.h */,
@@ -117,6 +136,33 @@
 				32A75E141AA7603300D6B8EE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A75E1F1AA7604200D6B8EE /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				32A75E201AA7604200D6B8EE /* Cipher */,
+				32A75E231AA7604200D6B8EE /* NSArray+Log.h */,
+				32A75E241AA7604200D6B8EE /* NSArray+Log.m */,
+				32A75E251AA7604200D6B8EE /* NSMutableURLRequest+Multipart.h */,
+				32A75E261AA7604200D6B8EE /* NSMutableURLRequest+Multipart.m */,
+				32A75E271AA7604200D6B8EE /* NSObject+array.h */,
+				32A75E281AA7604200D6B8EE /* NSObject+array.m */,
+				32A75E291AA7604200D6B8EE /* NSString+Extension.h */,
+				32A75E2A1AA7604200D6B8EE /* NSString+Extension.m */,
+				32A75E2B1AA7604200D6B8EE /* UIImage+Extensions.h */,
+				32A75E2C1AA7604200D6B8EE /* UIImage+Extensions.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		32A75E201AA7604200D6B8EE /* Cipher */ = {
+			isa = PBXGroup;
+			children = (
+				32A75E211AA7604200D6B8EE /* RSACryptor.h */,
+				32A75E221AA7604200D6B8EE /* RSACryptor.m */,
+			);
+			path = Cipher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +265,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A75E2E1AA7604200D6B8EE /* NSArray+Log.m in Sources */,
+				32A75E2D1AA7604200D6B8EE /* RSACryptor.m in Sources */,
+				32A75E2F1AA7604200D6B8EE /* NSMutableURLRequest+Multipart.m in Sources */,
 				32A75E021AA7603300D6B8EE /* ViewController.m in Sources */,
+				32A75E321AA7604200D6B8EE /* UIImage+Extensions.m in Sources */,
+				32A75E301AA7604200D6B8EE /* NSObject+array.m in Sources */,
 				32A75DFF1AA7603300D6B8EE /* AppDelegate.m in Sources */,
 				32A75DFC1AA7603300D6B8EE /* main.m in Sources */,
+				32A75E311AA7604200D6B8EE /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
